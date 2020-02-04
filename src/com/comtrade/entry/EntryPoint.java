@@ -22,7 +22,7 @@ public class EntryPoint {
 
 		for (int i = 0; i < firstList.size(); i++) {
 			for (int j = 0; j < secondList.size(); j++) {
-				if (firstList.get(i) == secondList.get(j)) {
+				if (firstList.get(i).equals(secondList.get(j))) {
 					thirdList.add(i);
 					System.out.println(firstList.get(i));
 				}
